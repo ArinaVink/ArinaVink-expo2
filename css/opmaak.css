@@ -1,15 +1,61 @@
-@media only screen and (max-device-width:740px)  {
+body{
 
 }
+.container{
+  background-color: #ff9f51;
+  opacity: 0.5;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-family: Century Gothic;
+
+}
+.wrapper{
+  margin: 0 auto
+}
+.klok{
+  margin: 0 auto;
+}
+#fases{
+  text-align: center;
+  color: #bf4e19;
+
+}
+#tiktak{
+  color: white;
+  background-color: darkgray;
+  font-size: 24px;
+  text-align: center;
+  border-width: 5px;
+  border-style: inset;
+
+}
+@media only screen and (max-device-width:740px)  {
+  #fases{
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+}
+
 
 @media only screen and (min-device-width:741px) and (max-device-width:1024px)  {
-
+  #fases{
+    font-size: 16px;
+    font-transform: uppercase;
+  }
 }
 
 @media only screen and (min-device-width:1025px) and (max-device-width:1365px)  {
-
+  #fases{
+    font-size: 18px;
+    font-style: italic;
+  }
 }
 
 @media only screen and (min-device-width:1366px)  {
-
+  #fases{
+    font-size: 18px;
+    font-style: italic;
+  }
 }

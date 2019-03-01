@@ -1,19 +1,22 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Expositie 2: martians</title>
     <link rel="stylesheet" href="css/opmaak.css" type="text/css"/>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.0/TweenMax.min.js"></script>
     <script src="javascript/main.js"></script>
+    <script src="javascript/ifelse.js"></script>
+
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.0/TweenMax.min.js"></script>
 <!--    <script src="javascript/tweenmax/TweenMax.min.js"></script>-->
   </head>
-  <body>
+  <body onload="startTime()">
     <div class="container">
       <div class="wrapper">
-        <div class="klok">
-          <h1 id="fases">Hello Martians</h1>
+        <div class="klok" id="tiktak">
         </div>
+        <h1 id="fases" onload="greetingStatement()"></h1>
       </div>
     </div>
   </body>
