@@ -2,14 +2,14 @@
 function greetingStatement() {
   var myDate = new Date();
   var h = today.getHours();
-
-  //var txt = ''; //leeg tekst veld om later te veranderen
+  var txt = document.getElementById('fases');
 
   if (h < 12)
-    document.getElementById('fases').innerText = 'Goodmorning Martians!';
+    txt =  'Good morning Martians!';
   if (h >= 12 && h <= 17)
-    document.getElementById('fases').innerText = 'Good afternoon Martians!';
+    txt = 'Good afternoon Martians!';
   else if (h >= 17 && h <= 24)
-    document.getElementById('fases').innerText = 'Good evening Martians!';
+    txt = 'Good evening Martians!';
 
+  document.getElementById('fases').innerHTML = txt;
 }
