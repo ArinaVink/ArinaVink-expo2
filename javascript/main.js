@@ -23,7 +23,7 @@ function greetingStatement() {
   } else if (time > 12 && time < 17) {
     document.getElementById('fases').innerHTML = 'Enjoy the rest of your afternoon.';
   }   else {
-    document.getElementById('fases').innerHTML = 'I hope your day was nice.!';
+    document.getElementById('fases').innerHTML = 'I hope your day was nice!';
   }
 
 
