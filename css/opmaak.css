@@ -48,7 +48,7 @@ body{
 
 @media only screen and (min-device-width:1025px) and (max-device-width:1365px)  {
   #fases{
-    font-size: 18px;
+    font-size: 16px;
     font-style: italic;
   }
 }
