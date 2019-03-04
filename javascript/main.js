@@ -30,7 +30,7 @@ function greetingStatement() {
 console.log(time);
 }
 
-  console.log(greetingStatement);
+TweenMax.fromTo(document.getElementById('spaces'), 6, {x:-300}, {x:100});
 
 window.onload = function () {
     startTime();
