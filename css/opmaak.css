@@ -2,6 +2,7 @@ body{
   /*background-color: black;*/
 }
 .container{
+  position: relative;
   /*background-color: #ff9f51;*/
   opacity: 0.5;
   display: flex;
@@ -9,17 +10,21 @@ body{
   justify-content: center;
   align-items: center;
   font-family: Century Gothic;
-/*  z-index: 0;*/
+   z-index: 2;
 }
 .wrapper{
   margin: 0 auto
 }
 .background{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
   opacity: 0;
   width: 740px;
 }
 #morning{
-  z-index: -3;
+  z-index: 1;
 }
 #raket{
   background-image: url(../afbeelding/raket.svg);
@@ -27,7 +32,7 @@ body{
   height: 500px;
 }
 #avond{
-  z-index: -1;
+  z-index: 1;
 }
 
 

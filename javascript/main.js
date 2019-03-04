@@ -38,10 +38,14 @@ function moveRocket() {
 
 function backgroundChange(){
   var time = new Date().getHours();
+//  time = 1;
   if (time < 12) {
-    document.getElementById('morning').src="../afbeelding/morning.jpg";
+  //  document.getElementById('morning').src="afbeelding/morning.jpg";
+  TweenMax.to(document.getElementById('morning'), 6, {opacity:1});
+
   }   else {
-    document.getElementById('morning').src="../afbeelding/avond.jpg";
+    TweenMax.to(document.getElementById('avond'), 6, {opacity:2});
+  //  document.getElementById('avond').src="afbeelding/avond.jpg";
   }
 }
 
