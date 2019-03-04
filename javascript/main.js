@@ -21,18 +21,34 @@ function greetingStatement() {
   if (time < 12) {
     document.getElementById('fases').innerHTML = 'Have a wonderfull day martians!';
   } else if (time > 12 && time < 17) {
+
     document.getElementById('fases').innerHTML = 'Enjoy the rest of your afternoon.';
   }   else {
     document.getElementById('fases').innerHTML = 'I hope your day was nice!';
   }
-
-
-console.log(time);
+//console.log(time);
 }
 
-TweenMax.fromTo(document.getElementById('spaces'), 6, {x:-300}, {x:100});
+function moveLogo(){
+  TweenMax.fromTo(document.getElementById('spaces'), 6, {x:-300}, {x:0});
+}
+function moveRocket() {
+  TweenMax.fromTo(document.getElementById('raket'), 6, {y:-500}, {y:0});
+}
+
+function backgroundChange(){
+  var time = new Date().getHours();
+  if (time < 12) {
+    document.getElementById('morning').src="../afbeelding/morning.jpg";
+  }   else {
+    document.getElementById('morning').src="../afbeelding/avond.jpg";
+  }
+}
 
 window.onload = function () {
     startTime();
     greetingStatement();
+    moveLogo();
+    moveRocket();
+    backgroundChange();
   };
