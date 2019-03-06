@@ -34,7 +34,7 @@ function moveLogo(){
 
 function moveRocket() {
   var time = new Date().getHours();
-  time = 17;
+//  time = 14;
   if (time < 15) {
   TweenMax.to(document.getElementById('raket'), 6, {y: -2500}, {y: 100})
   }   else {
@@ -44,7 +44,7 @@ function moveRocket() {
 
 function backgroundChange(){
   var time = new Date().getHours();
-//  time = 1;
+//  time = 13;
   if (time < 12) {
   TweenMax.to(document.getElementById('morning'), 6, {opacity:1});
   }else if (time > 12 && time < 17) {
