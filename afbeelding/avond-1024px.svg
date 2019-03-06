@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Laag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1017.99 677.01" style="enable-background:new 0 0 1017.99 677.01;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{clip-path:url(#SVGID_3_);}
+	.st2{fill:#FF8939;}
+	.st3{opacity:0.25;fill:#F9854C;}
+	.st4{opacity:0.5;fill:#FF7D39;}
+	.st5{opacity:0.75;fill:#FF7339;}
+	.st6{fill:#FF5F27;}
+	.st7{fill:#FF8C4D;}
+	.st8{fill:#FF6543;}
+	.st9{fill:#E53D3A;}
+	.st10{fill:#CF1F34;}
+	.st11{fill:#2B112C;}
+</style>
+<g>
+	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-18.1546" y1="645.1423" x2="1038.8893" y2="34.8577">
+		<stop  offset="0" style="stop-color:#2B112C"/>
+		<stop  offset="0.5279" style="stop-color:#D12134"/>
+		<stop  offset="1" style="stop-color:#FF5F27"/>
+	</linearGradient>
+	<rect x="1.14" y="1.43" class="st0" width="1018.45" height="677.14"/>
+	<g>
+		<defs>
+			<rect id="SVGID_2_" x="1.14" y="1.43" width="1018.45" height="677.14"/>
+		</defs>
+		<clipPath id="SVGID_3_">
+			<use xlink:href="#SVGID_2_"  style="overflow:visible;"/>
+		</clipPath>
+		<g class="st1">
+			<circle class="st2" cx="984.9" cy="283.97" r="104.96"/>
+			<circle class="st3" cx="984.14" cy="282.79" r="126.96"/>
+			<circle class="st4" cx="984.14" cy="282.79" r="115.11"/>
+			<circle class="st5" cx="984.14" cy="282.79" r="89.72"/>
+			<circle class="st6" cx="984.14" cy="282.79" r="76.18"/>
+		</g>
+	</g>
+	<polygon class="st7" points="114.78,328.64 144.56,315.31 172,327.07 258.99,287.1 293.47,302.77 302.88,297.29 360.09,323.93 
+		511.35,356.07 636.74,304.34 672.01,320.02 706.49,305.12 714.33,309.04 760.57,287.1 860.1,330.99 893.8,314.53 905.56,320.02 
+		927.5,309.04 936.12,315.31 936.12,677.39 99.89,677.39 	"/>
+	<polygon class="st8" points="267.61,354.5 305.23,337.26 316.98,344.31 420.44,297.29 432.19,305.12 516.83,265.94 668.09,335.69 
+		681.41,330.2 716.68,345.09 759,326.28 770.76,335.69 770.76,676.61 265.26,676.61 	"/>
+	<path class="st9" d="M0.36,374.09l83.07-71.32l106.59,59.56l39.19-26.65l92.48,43.89l13.32-7.05l41.54,21.94l44.67-21.16
+		l124.61,54.86l71.32-61.91l52.51,28.21l115.99-68.18l58.78,47.02l175.55-112.86v416.94H1.14C1.14,677.39-0.97,372.77,0.36,374.09z"
+		/>
+	<polygon class="st10" points="-1.21,423.47 157.89,359.2 216.67,407.79 240.96,392.12 289.55,423.47 372.63,370.96 469.03,443.06 
+		544.26,389.77 632.04,453.25 665.74,439.92 690.82,454.82 835.02,349.01 882.05,387.42 921.23,361.55 960.42,394.47 
+		1020.19,361.81 1020.19,677.39 1.14,677.39 	"/>
+	<polygon class="st11" points="1.49,638.55 151.62,528.49 235.48,595.1 516.83,486.16 800.54,599.8 902.42,507.32 1022.79,592.13 
+		1022.79,677.39 1.14,677.39 	"/>
+</g>
+</svg>

@@ -4,7 +4,7 @@ body{
 .container{
   position: relative;
   /*background-color: #ff9f51;*/
-  opacity: 0.5;
+  /*opacity: 0.5;*/
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -21,7 +21,8 @@ body{
   left: 0;
   z-index: 1;
   opacity: 0;
-  width: 740px;
+  background-size: cover;
+  /*width: 740px;*/
 }
 #morning{
   z-index: 1;

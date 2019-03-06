@@ -21,7 +21,6 @@ function greetingStatement() {
   if (time < 12) {
     document.getElementById('fases').innerHTML = 'Have a wonderfull day martians!';
   } else if (time > 12 && time < 17) {
-
     document.getElementById('fases').innerHTML = 'Enjoy the rest of your afternoon.';
   }   else {
     document.getElementById('fases').innerHTML = 'I hope your day was nice!';
@@ -32,20 +31,26 @@ function greetingStatement() {
 function moveLogo(){
   TweenMax.fromTo(document.getElementById('spaces'), 6, {x:-300}, {x:0});
 }
+
 function moveRocket() {
-  TweenMax.fromTo(document.getElementById('raket'), 6, {y:-500}, {y:0});
+  var time = new Date().getHours();
+  time = 17;
+  if (time < 15) {
+  TweenMax.to(document.getElementById('raket'), 6, {y: -2500}, {y: 100})
+  }   else {
+  TweenMax.fromTo(document.getElementById('raket'), 6, {y:-500}, {y:0})
+  }
 }
 
 function backgroundChange(){
   var time = new Date().getHours();
 //  time = 1;
   if (time < 12) {
-  //  document.getElementById('morning').src="afbeelding/morning.jpg";
   TweenMax.to(document.getElementById('morning'), 6, {opacity:1});
-
+  }else if (time > 12 && time < 17) {
+  TweenMax.to(document.getElementById('middag'), 6, {opacity:1});
   }   else {
     TweenMax.to(document.getElementById('avond'), 6, {opacity:2});
-  //  document.getElementById('avond').src="afbeelding/avond.jpg";
   }
 }
 
