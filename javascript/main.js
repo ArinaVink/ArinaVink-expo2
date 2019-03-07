@@ -36,7 +36,7 @@ function moveRocket() {
   var time = new Date().getHours();
 //  time = 14;
   if (time < 15) {
-  TweenMax.to(document.getElementById('raket'), 6, {y: -2500}, {y: 100})
+  TweenMax.to(document.getElementById('raket'), 6, {y: -1500}, {y: 100})
   }   else {
   TweenMax.fromTo(document.getElementById('raket'), 6, {y:-500}, {y:0})
   }
