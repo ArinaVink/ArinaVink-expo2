@@ -1,13 +1,15 @@
 function startTime() {
   var today = new Date();
+  var d = new Date();
   var h = today.getHours();
   var m = today.getMinutes();
   var s = today.getSeconds();
   m = checkTime(m);
   s = checkTime(s);
-  document.getElementById('tiktak').innerHTML =
-  h + ':' + m + ':' + s;
-  var t = setTimeout(startTime, 500);
+//  document.getElementById('tiktak').innerHTML =
+//  h + ':' + m + ':' + s;
+//  var t = setTimeout(startTime, 500);
+  document.getElementById('tiktak').innerHTML = d
 }
 
 function checkTime(i) {
@@ -34,7 +36,7 @@ function moveLogo(){
 
 function moveRocket() {
   var time = new Date().getHours();
-//  time = 14;
+//s  time = 14;
   if (time < 15) {
   TweenMax.to(document.getElementById('raket'), 6, {y: -1500}, {y: 100})
   }   else {
@@ -44,7 +46,7 @@ function moveRocket() {
 
 function backgroundChange(){
   var time = new Date().getHours();
-//  time = 13;
+// time = 2;
   if (time < 12) {
   TweenMax.to(document.getElementById('morning'), 6, {opacity:1});
   }else if (time > 12 && time < 17) {
